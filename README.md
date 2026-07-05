@@ -302,18 +302,3 @@ While this lab demonstrates basic PXE boot, several enhancements could make the 
 
 ---
 
-## Project Gallery
-
-*Screenshots and visual documentation will be added here once available.*
-
-### Network Topology Screenshot
-_Placeholder: Screenshot of actual network setup showing client, switch, and server connections_
-
-### PXE Boot Screen
-_Placeholder: Photo of client display showing PXE boot menu from SYSLINUX/GRUB_
-
-### Linux Boot Process
-_Placeholder: Screenshot capturing kernel boot messages during network boot_
-
-### Final Running System
-_Placeholder: Terminal showing successfully booted system with `uname -a` and network info_
