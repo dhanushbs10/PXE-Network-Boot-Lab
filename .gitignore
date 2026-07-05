@@ -1,0 +1,57 @@
+# OS-generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# Editor/IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.~*
+.vim/
+
+# Temporary files
+*.tmp
+*.temp
+*.log
+*.bak
+*.backup
+
+# Network boot lab specific (if any config files with secrets are added later)
+*.key
+*.pem
+*.crt
+secrets/
+credentials/
+config/local.yaml
+config/secret.*
+
+# Build artifacts (none expected for pure documentation, but just in case)
+/dist
+/build
+/out
+/target
+
+# Package manager files
+package-lock.json
+yarn.lock
+pip-wheel-metadata/
+__pycache__/
+*.pyc
+
+# Misc
+.cache/
+.env
+.env.local
+.env.*.local
+
+# Backup files
+*.orig
+*.rej
