@@ -61,9 +61,9 @@ graph TD
     B --> A
     C --> B
     
-    style A fill:#e1f5e1
-    style B fill:#fff3e0
-    style C fill:#e3f2fd
+    style A fill:#e1f5e1,color:#000000
+    style B fill:#fff3e0,color:#000000
+    style C fill:#e3f2fd,color:#000000
 ```
 
 The network topology is straightforward: the PXE client and server are connected through a switch or router. The server runs both DHCP and TFTP daemons on the same machine. In a lab setting, this can be as simple as a direct Ethernet cable connection between two computers.
@@ -84,14 +84,14 @@ flowchart TD
     F --> G[Download initramfs<br/>via TFTP]
     G --> H[Linux Boots<br/>from RAM]
     
-    style A fill:#fce4ec
-    style B fill:#f3e5f5
-    style C fill:#e8eaf6
-    style D fill:#e3f2fd
-    style E fill:#e0f2f1
-    style F fill:#e8f5e8
-    style G fill:#f1f8e9
-    style H fill:#fff3e0
+    style A fill:#fce4ec,color:#000000
+    style B fill:#f3e5f5,color:#000000
+    style C fill:#e8eaf6,color:#000000
+    style D fill:#e3f2fd,color:#000000
+    style E fill:#e0f2f1,color:#000000
+    style F fill:#e8f5e8,color:#000000
+    style G fill:#f1f8e9,color:#000000
+    style H fill:#fff3e0,color:#000000
 ```
 
 Let's break down each step:
